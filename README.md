@@ -42,3 +42,5 @@ builds a receive-only app.
 
 Apache 2.0 ([LICENSE](LICENSE)). The digits are rendered from Roboto Condensed, SIL OFL 1.1
 ([fonts/OFL.txt](fonts/OFL.txt)).
+
+Coded using Claude Opus v5.5.
