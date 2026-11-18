@@ -17,8 +17,8 @@ restarts. Dual watch needs the squelch set above 0.
 
 | UV-K5 V3 / UV-K1 | |
 |---|---|
-| UP / DOWN or RIGHT / LEFT | Channel up / down (hold to scroll) |
-| 0-9 | Channel number (1, then a pause: 01) |
+| UP / DOWN or RIGHT / LEFT | Channel + / - |
+| 0-9 | Channel number |
 |  MENU | Channel 16 / back |
 | * | HI / LO power |
 | F | Dual watch on / off |
