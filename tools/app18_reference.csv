@@ -1,0 +1,102 @@
+# ITU Radio Regulations Appendix 18 (Rev.WRC-19): table of transmitting frequencies in
+# the VHF maritime mobile band, typed in from the table (not computed), one row per
+# channel designator, in the order of the table.
+#
+#   ship   frequency transmitted by ship stations (MHz), "-" when the column is empty
+#   coast  frequency transmitted by coast stations (MHz), "-" when the column is empty
+#   notes  App18 note letters of the row
+#   app    what Marine VHF does with the row:
+#            voice      selectable; receive on coast (or ship when no coast column), transmit on ship
+#            rx-only    selectable, receive only (ship column empty: coast stations only, note mm)
+#            vdes       24-26/84-86 (notes w, ww, x, xx): only with MARINE_VDES_VOICE=1
+#            no:<why>   not in the selector
+#   power  "1W" when App18 limits the channel to 1 W
+#
+# The VDES rows 1024-2086 are listed with the frequency of their leg; which column
+# App18 puts it in does not matter here, since none of them is in the selector.
+#
+designator,ship,coast,notes,app,power
+60,156.025,160.625,m,voice,
+01,156.050,160.650,m,voice,
+61,156.075,160.675,m,voice,
+02,156.100,160.700,m,voice,
+62,156.125,160.725,m,voice,
+03,156.150,160.750,m,voice,
+63,156.175,160.775,m,voice,
+04,156.200,160.800,m,voice,
+64,156.225,160.825,m,voice,
+05,156.250,160.850,m,voice,
+65,156.275,160.875,m,voice,
+06,156.300,-,f,voice,
+2006,160.900,160.900,r,no:experimental / AMRD group B,
+66,156.325,160.925,m,voice,
+07,156.350,160.950,m,voice,
+67,156.375,156.375,h,voice,
+08,156.400,-,,voice,
+68,156.425,156.425,,voice,
+09,156.450,156.450,i,voice,
+69,156.475,156.475,,voice,
+10,156.500,156.500,"h,q",voice,
+70,156.525,156.525,"f,j",no:DSC only (note j),
+11,156.550,156.550,q,voice,
+71,156.575,156.575,,voice,
+12,156.600,156.600,,voice,
+72,156.625,-,i,voice,
+13,156.650,156.650,k,voice,
+73,156.675,156.675,"h,i",voice,
+14,156.700,156.700,,voice,
+74,156.725,156.725,,voice,
+15,156.750,156.750,g,voice,
+75,156.775,156.775,"n,s",voice,1W
+16,156.800,156.800,f,voice,
+76,156.825,156.825,"n,s",voice,1W
+17,156.850,156.850,g,voice,
+77,156.875,-,,voice,
+18,156.900,161.500,m,voice,
+78,156.925,161.525,m,voice,
+1078,156.925,156.925,,voice,
+2078,-,161.525,mm,rx-only,
+19,156.950,161.550,m,voice,
+1019,156.950,156.950,,voice,
+2019,-,161.550,mm,rx-only,
+79,156.975,161.575,m,voice,
+1079,156.975,156.975,,voice,
+2079,-,161.575,mm,rx-only,
+20,157.000,161.600,m,voice,
+1020,157.000,157.000,,voice,
+2020,-,161.600,mm,rx-only,
+80,157.025,161.625,"wa,y",voice,
+21,157.050,161.650,"wa,y",voice,
+81,157.075,161.675,"wa,y",voice,
+22,157.100,161.700,"wa,y",voice,
+82,157.125,161.725,"x,wa,y",voice,
+23,157.150,161.750,"x,wa,y",voice,
+83,157.175,161.775,"x,wa,y",voice,
+24,157.200,161.800,"w,ww,x,xx",vdes,
+1024,157.200,-,"w,ww,x,xx",no:VDES (digital),
+2024,161.800,161.800,"w,ww,x,xx",no:VDES (digital),
+84,157.225,161.825,"w,ww,x,xx",vdes,
+1084,157.225,-,"w,ww,x,xx",no:VDES (digital),
+2084,161.825,161.825,"w,ww,x,xx",no:VDES (digital),
+25,157.250,161.850,"w,ww,x,xx",vdes,
+1025,157.250,-,"w,ww,x,xx",no:VDES (digital),
+2025,161.850,161.850,"w,ww,x,xx",no:VDES (digital),
+85,157.275,161.875,"w,ww,x,xx",vdes,
+1085,157.275,-,"w,ww,x,xx",no:VDES (digital),
+2085,161.875,161.875,"w,ww,x,xx",no:VDES (digital),
+26,157.300,161.900,"w,ww,x",vdes,
+1026,157.300,-,"w,ww,x",no:VDES satellite uplink,
+2026,-,161.900,"w,ww,x",no:VDES satellite downlink,
+86,157.325,161.925,"w,ww,x",vdes,
+1086,157.325,-,"w,ww,x",no:VDES satellite uplink,
+2086,-,161.925,"w,ww,x",no:VDES satellite downlink,
+27,157.350,161.950,"z,zx",no:split into 1027 + ASM 1 since 2019 (note z); duplex is US only (zx),
+1027,157.350,157.350,"z,zz",voice,
+2027,161.950,161.950,z,no:ASM 1 (data),
+87,157.375,157.375,"z,zz",voice,
+28,157.400,162.000,"z,zx",no:split into 1028 + ASM 2 since 2019 (note z); duplex is US only (zx),
+1028,157.400,157.400,"z,zz",voice,
+2028,162.000,162.000,z,no:ASM 2 (data),
+88,157.425,157.425,"z,zz",voice,
+AIS1,161.975,161.975,"f,l,p",no:AIS only,
+AIS2,162.025,162.025,"f,l,p",no:AIS only,

@@ -1,0 +1,12 @@
+Marine VHF for the Quansheng UV-K1 / UV-K5 V3
+Licensed under the Apache License, Version 2.0.
+
+This app is built with the overlay-app API and build scripts of the F4HWN custom
+firmware for the Quansheng UV-K1 / UV-K5 V3 (https://github.com/armel/uv-k1-k5v3-firmware-custom),
+also licensed under the Apache License, Version 2.0.
+
+The channel digits (app/marine/digits.txt and digits_small.txt, and the marine_assets.bin
+built from them) are a
+bitmap rendering of the digits of Roboto Condensed Bold,
+Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic),
+licensed under the SIL Open Font License, Version 1.1 (fonts/OFL.txt).
