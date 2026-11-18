@@ -15,15 +15,15 @@ restarts. Dual watch needs the squelch set above 0.
 
 ## Keys
 
-| UV-K5 V3 | UV-K1 | |
-|---|---|---|
-| UP / DOWN | RIGHT / LEFT | Channel up / down (hold to scroll) |
-| 0-9 | 0-9 | Channel number (1, then a pause: 01) |
-| MENU | MENU | Channel 16 / back |
-| * | * | HI / LO power |
-| F | F | Dual watch on / off |
-| SIDE1 | SIDE1 | Monitor (hold) |
-| EXIT | EXIT | Quit |
+| UV-K5 V3 / UV-K1 | |
+|---|---|
+| UP / DOWN or RIGHT / LEFT | Channel up / down (hold to scroll) |
+| 0-9 | Channel number (1, then a pause: 01) |
+|  MENU | Channel 16 / back |
+| * | HI / LO power |
+| F | Dual watch on / off |
+| SIDE1 | Monitor (hold) |
+| EXIT | Quit |
 
 ## Build
 
